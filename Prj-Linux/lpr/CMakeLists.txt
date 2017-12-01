@@ -1,9 +1,11 @@
-cmake_minimum_required(VERSION 3.6)
+cmake_minimum_required(VERSION 3.5)
 project(SwiftPR)
 
+set(OpenCV_DIR /usr/local/share/OpenCV)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-find_package(OPENCV 3.3.0 REQUIRED)
+#find_package(OPENCV 3.3.0 REQUIRED)
+find_package(OpenCV)
 include_directories( ${OpenCV_INCLUDE_DIRS})
 include_directories(include)
 
