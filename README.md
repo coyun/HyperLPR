@@ -110,10 +110,3 @@ sudo make -j
 
 - 体验 Android APP：[https://fir.im/HyperLPR](https://fir.im/HyperLPR)
 
-### 数据分享
-
-车牌识别框架开发时使用的数据并不是很多，有意着可以为我们提供相关车牌数据。联系邮箱 455501914@qq.com。
-
-### 获取帮助
-
-+ HyperLPR讨论QQ群：673071218, 加前请备注HyperLPR交流。
